@@ -1,0 +1,10 @@
+.success-image {
+ display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url(https://peacemaking.narf.org/wp-content/uploads/2020/10/national-congress-of-american-indians-logo-1.png)
+ no-repeat;
+ width: 400px;
+ height: 200px;
+ padding-left: 400px;
+}
