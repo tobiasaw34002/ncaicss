@@ -8,3 +8,13 @@
  height: 200px;
  padding-left: 400px;
 }
+h1.ng-star-inserted {
+text-indent: -9999px;
+  line-height: 0; /* Collapse the original line */    
+}
+h1.ng-star-inserted::after {
+    content:'Your Registration is complete';
+     text-indent: 0;
+  display: block;
+  line-height: initial; /* New content takes up original line height */
+}
