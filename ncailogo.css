@@ -19,5 +19,5 @@ h1.ng-star-inserted::after {
   line-height: initial; /* New content takes up original line height */
 }
 .product-item__price.ng-star-inserted {
-    visibility: hidden;
+    visibility: hidden !important;
 }
